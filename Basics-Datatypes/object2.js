@@ -77,6 +77,8 @@ console.log(instructor);
 //     "price": "free"
 // }
 
+
+// Array Of Object
 [
     {},
     {},
