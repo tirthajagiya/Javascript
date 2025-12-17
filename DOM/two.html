@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: #2f2f2f; color:#ccc">
+    <div class="parent">
+        <div class="child">Hello</div>
+        <div class="child">Hey</div>
+        <div class="child">How are you?</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector('.parent');
+    // console.log(parent.children);HTML Collection
+    // console.log(parent.children[1].innerHTML);
+
+    for (let i = 0; i < parent.children.length; i++) {
+        // console.log(parent.children[i].innerHTML);
+    }
+
+    parent.children[1].style.color = "orange"
+
+    // console.log(parent.firstElementChild);
+    // console.log(parent.lastElementChild);
+
+    const childOne = document.querySelector('.child')
+    // console.log(childOne.parentElement);
+    // console.log(childOne.nextElementSibling);
+
+    console.log(parent.childNodes);//Node List
+</script>
+
+</html>
